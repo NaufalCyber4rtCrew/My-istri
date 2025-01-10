@@ -15,7 +15,7 @@ footer.href = "https://www.facebook.com/IfanCyber4rt/";
 
 document.querySelector(".tombol").addEventListener('click', function () {
   Swal.fire("Hai Istriku", "Aku punya pertanyaan nih, mau jawab ya?", "question").then(function () {
-    Swal.fire("Jawab yang jujur ya, jangan bohong, aq bisa tau!").then(function () {
+    Swal.fire("Jawab yang jujur ya, jangan bohong, aq tau!").then(function () {
       Swal.fire("Awas, aku bisa tahu kalau kamu bohong!!", "", "error").then(function () {
 
         const {
